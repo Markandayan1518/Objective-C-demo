@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		094CE0E42148E43300747B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CE0E32148E43300747B07 /* main.m */; };
+		0983B90B2148F30300A77A22 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0983B90A2148F30300A77A22 /* Passenger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		094CE0E02148E43300747B07 /* Objective-C demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		094CE0E32148E43300747B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0983B9092148F30300A77A22 /* Passenger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		0983B90A2148F30300A77A22 /* Passenger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				094CE0E32148E43300747B07 /* main.m */,
+				0983B9092148F30300A77A22 /* Passenger.h */,
+				0983B90A2148F30300A77A22 /* Passenger.m */,
 			);
 			path = "Objective-C demo";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0983B90B2148F30300A77A22 /* Passenger.m in Sources */,
 				094CE0E42148E43300747B07 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
