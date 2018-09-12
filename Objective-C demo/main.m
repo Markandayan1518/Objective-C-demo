@@ -19,8 +19,9 @@ static BOOL checkNumber(int a) {
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int a = 25;
-        checkNumber(a) ? NSLog(@"Given number : %i is EVEN number", a) : NSLog(@"Given number : %i is ODD number", a);
+        for (int i = 0; i < 10; i++) {
+             checkNumber(i) ? NSLog(@"Given number : %i is EVEN number", i) : NSLog(@"Given number : %i is ODD number", i);
+        }
     }
     return 0;
 }
